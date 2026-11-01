@@ -1,7 +1,7 @@
 .card-wrapper {
   display: flex;
   flex-wrap: wrap; 
-  justify-content: flex-start; 
+  justify-content: center; 
 }
 
 .card {
@@ -10,6 +10,7 @@
   width: 20%;
   margin: 10px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .card:hover {
