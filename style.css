@@ -64,6 +64,8 @@ h1 {
 /* # = id, had to look up online */
 #search {
     margin-left: 40px;
+    width: 200px;
+    height: 25px;
 }
 
 .card:hover {
