@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Annie";
+    src: url("annie.ttf");
+}
+
+body { 
+    background-image: url('background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+}
+
+button {
+  font-family: Annie;
+  font-size: 13px;
+}
+
 .card-wrapper {
   display: flex;
   flex-wrap: wrap; 
@@ -6,11 +25,45 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #fffaf0;
   transition: 0.3s;
   width: 20%;
   margin: 10px;
   text-align: center;
   padding-top: 20px;
+  font-family: Annie;
+}
+
+.description {
+  margin-left: 50px;
+  margin-top: -20px;
+  font-size: 21px;
+  font-family: Annie;
+  color: rgb(125, 54, 54);
+}
+
+.instructions {
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 28px;
+  font-weight: bold;
+  color: rgb(102, 7, 7);
+  margin-bottom: 5px;
+  font-size: 50px;
+  font-family: Annie;
+}
+
+.container h3 {
+  color: rgb(102, 7, 7);
+      
+}
+
+/* # = id, had to look up online */
+#search {
+    margin-left: 40px;
 }
 
 .card:hover {
@@ -20,3 +73,4 @@
 .container {
   padding: 2px 16px;
 }
+

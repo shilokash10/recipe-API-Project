@@ -1,4 +1,4 @@
-//API key from THEMEALDB. API test key "1" is only used for the development of your app or educational purposes
+//API key from TheMealDB. API test key "1" is only used for the development of your app or educational purposes
 //https://www.themealdb.com/api.php
 
 const apiKey = "1";
@@ -42,6 +42,7 @@ async function getRecipes() {
             //instructions on how to make recipe
             let instructions = document.createElement("p");
             instructions.textContent = "Instructions: " + recipe.strInstructions;
+            instructions.classList.add("instructions");
 
             //ingredient items
             //listing the first 6 ingredient items 
