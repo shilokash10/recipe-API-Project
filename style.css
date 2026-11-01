@@ -1,15 +1,17 @@
+/* Font Credits: Kimberly Geswein on dafont.com */
 @font-face {
-    font-family: "Annie";
-    src: url("annie.ttf");
+  font-family: "Annie";
+  src: url("annie.ttf");
 }
 
+/* Background Credits: found on Pinterest */
 body { 
-    background-image: url('background.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 10px;
+  background-image: url('background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 10px;
 }
 
 button {
@@ -63,9 +65,9 @@ h1 {
 
 /* # = id, had to look up online */
 #search {
-    margin-left: 40px;
-    width: 200px;
-    height: 25px;
+   margin-left: 40px;
+   width: 200px;
+   height: 25px;
 }
 
 .card:hover {
